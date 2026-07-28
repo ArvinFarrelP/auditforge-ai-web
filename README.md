@@ -94,14 +94,15 @@ public/
 
 ## Official Links
 
-| Resource              | URL                                           |
-| --------------------- | --------------------------------------------- |
-| 🌐 Website            | https://auditforge.arvinlabs.tech             |
-| 📖 API Documentation  | https://audit.arvinlabs.tech/docs             |
-| ⚡ API Endpoint       | https://audit.arvinlabs.tech/audit            |
-| 📄 OpenAPI Spec       | https://audit.arvinlabs.tech/openapi.json     |
-| 💻 Backend Repository | https://github.com/ArvinFarrelP/auditforge-ai |
-| 🤖 OKX.AI Marketplace | https://www.okx.ai/agents/9186                |
+| Resource                 | URL                                             |
+| ------------------------ | ----------------------------------------------- |
+| 🌐 Website               | https://auditforge.arvinlabs.tech               |
+| 📖 API Documentation     | https://audit.arvinlabs.tech/docs               |
+| ⚡ API Endpoint          | https://audit.arvinlabs.tech/audit              |
+| 📄 OpenAPI Specification | https://audit.arvinlabs.tech/openapi.json       |
+| 💻 Backend Repository    | https://github.com/ArvinFarrelP/auditforge-ai   |
+| 🤖 OKX.AI Marketplace    | https://www.okx.ai/agents/9186                  |
+| 🏆 HackQuest Project     | https://www.hackquest.io/projects/AuditForge-AI |
 
 ---
 
