@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: rgba(59, 130, 246, 0.18);
+    color: #1f2937;
+  }
+
+  body {
+    background-color: #f7f9fc;
+  }
+
+  :focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.14em] uppercase text-accent;
+  }
+
+  .section-heading {
+    @apply font-display text-3xl sm:text-4xl font-semibold tracking-tight text-ink;
+  }
+
+  .surface-card {
+    @apply bg-surface border border-line rounded-xl shadow-card transition-all duration-200;
+  }
+
+  .surface-card-interactive {
+    @apply surface-card hover:shadow-card-hover hover:border-secondary/30;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-secondary
+      px-6 py-3 font-body text-sm font-semibold text-white
+      shadow-brand-glow transition-all duration-200 hover:-translate-y-0.5 hover:brightness-105
+      active:translate-y-0 active:brightness-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line
+      bg-surface px-6 py-3 font-body text-sm font-semibold text-primary
+      transition-all duration-200 hover:-translate-y-0.5 hover:border-secondary/50 hover:bg-canvas hover:shadow-card
+      active:translate-y-0;
+  }
+
+  .btn-tertiary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-transparent
+      px-6 py-3 font-body text-sm font-semibold text-ink-muted
+      transition-all duration-200 hover:-translate-y-0.5 hover:text-primary
+      active:translate-y-0;
+  }
+
+  .method-badge {
+    @apply inline-flex items-center rounded-md px-2 py-0.5 font-mono text-[11px] font-bold uppercase tracking-wide;
+  }
+
+  .trust-pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-surface/80
+      px-3 py-1.5 font-body text-[12.5px] font-medium text-ink-muted
+      backdrop-blur-sm transition-colors duration-200;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
