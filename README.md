@@ -27,14 +27,15 @@ npm run build
 
 ## Official Links
 
-| Resource              | URL                                             |
-| --------------------- | ----------------------------------------------- |
-| 🌐 Website            | https://auditforge.arvinlabs.tech               |
-| 📖 API Docs           | https://audit.arvinlabs.tech/docs               |
-| ⚡ API Endpoint       | https://audit.arvinlabs.tech/audit              |
-| 💻 Backend Repository | https://github.com/ArvinFarrelP/auditforge-ai   |
-| 🤖 OKX.AI Marketplace | https://www.okx.ai/agents/9186                  |
-| 🏆 HackQuest Project  | https://www.hackquest.io/projects/AuditForge-AI |
+| Resource              | URL                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| 🌐 Website            | https://auditforge.arvinlabs.tech                                                     |
+| 📖 API Docs           | https://audit.arvinlabs.tech/docs                                                     |
+| ⚡ API Endpoint       | https://audit.arvinlabs.tech/audit                                                    |
+| 📑 Pitch Deck         | https://drive.google.com/file/d/106W_0BAvzE24aCWzT-7rbW3EzcNnce5q/view?usp=drive_link |
+| 💻 Backend Repository | https://github.com/ArvinFarrelP/auditforge-ai                                         |
+| 🤖 OKX.AI Marketplace | https://www.okx.ai/agents/9186                                                        |
+| 🏆 HackQuest Project  | https://www.hackquest.io/projects/AuditForge-AI                                       |
 
 ## Recognition
 
