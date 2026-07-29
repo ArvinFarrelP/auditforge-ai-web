@@ -31,6 +31,7 @@ npm run build
 | --------------------- | ----------------------------------------------- |
 | 🌐 Website            | https://auditforge.arvinlabs.tech               |
 | 📖 API Docs           | https://audit.arvinlabs.tech/docs               |
+| 📄 OpenAPI Spec       | https://audit.arvinlabs.tech/openapi.json       |
 | ⚡ API Endpoint       | https://audit.arvinlabs.tech/audit              |
 | 💻 Backend Repository | https://github.com/ArvinFarrelP/auditforge-ai   |
 | 🤖 OKX.AI Marketplace | https://www.okx.ai/agents/9186                  |
